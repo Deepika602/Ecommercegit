@@ -2,74 +2,78 @@
 <testng-results total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-13T21:52:19Z" name="Suite" finished-at="2020-01-13T21:53:11Z" duration-ms="51278">
+  <suite started-at="2020-02-03T08:23:43Z" name="Suite" finished-at="2020-02-03T08:24:39Z" duration-ms="55908">
     <groups>
     </groups>
-    <test started-at="2020-01-13T21:52:19Z" name="Test" finished-at="2020-01-13T21:53:11Z" duration-ms="51278">
+    <test started-at="2020-02-03T08:23:43Z" name="Test" finished-at="2020-02-03T08:24:39Z" duration-ms="55908">
       <class name="com.apex.ecommerce.order.test.OrderTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.order.test.OrderTest@6a62689d]" started-at="2020-01-13T13:52:19Z" name="setUp" finished-at="2020-01-13T13:52:25Z" duration-ms="5201" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.order.test.OrderTest@6a62689d]" started-at="2020-02-03T00:23:43Z" name="setUp" finished-at="2020-02-03T00:23:49Z" duration-ms="6039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validatePidTest()[pri:0, instance:com.apex.ecommerce.order.test.OrderTest@6a62689d]" started-at="2020-01-13T13:52:25Z" name="validatePidTest" finished-at="2020-01-13T13:52:46Z" duration-ms="21683" status="PASS">
+        <test-method signature="validatePidTest()[pri:0, instance:com.apex.ecommerce.order.test.OrderTest@6a62689d]" started-at="2020-02-03T00:23:49Z" name="validatePidTest" finished-at="2020-02-03T00:24:11Z" duration-ms="22165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePidTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.order.test.OrderTest@6a62689d]" started-at="2020-01-13T13:52:46Z" name="close" finished-at="2020-01-13T13:52:46Z" duration-ms="125" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.order.test.OrderTest@6a62689d]" started-at="2020-02-03T00:24:11Z" name="close" finished-at="2020-02-03T00:24:11Z" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.apex.ecommerce.order.test.OrderTest -->
       <class name="com.apex.ecommerce.registration.test.RegistrationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.registration.test.RegistrationTest@60fa3495]" started-at="2020-01-13T13:53:04Z" name="setUp" finished-at="2020-01-13T13:53:06Z" duration-ms="2717" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.registration.test.RegistrationTest@60fa3495]" started-at="2020-02-03T00:24:31Z" name="setUp" finished-at="2020-02-03T00:24:34Z" duration-ms="2614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCreateAccount()[pri:0, instance:com.apex.ecommerce.registration.test.RegistrationTest@60fa3495]" started-at="2020-01-13T13:53:06Z" name="testCreateAccount" finished-at="2020-01-13T13:53:11Z" duration-ms="4320" status="PASS">
+        <test-method signature="testCreateAccount()[pri:0, instance:com.apex.ecommerce.registration.test.RegistrationTest@60fa3495]" started-at="2020-02-03T00:24:34Z" name="testCreateAccount" finished-at="2020-02-03T00:24:39Z" duration-ms="4999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateAccount -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.registration.test.RegistrationTest@60fa3495]" started-at="2020-01-13T13:53:11Z" name="close" finished-at="2020-01-13T13:53:11Z" duration-ms="100" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.registration.test.RegistrationTest@60fa3495]" started-at="2020-02-03T00:24:39Z" name="close" finished-at="2020-02-03T00:24:39Z" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.apex.ecommerce.registration.test.RegistrationTest -->
       <class name="com.apex.ecommerce.signon.test.SignonTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:46Z" name="setUp" finished-at="2020-01-13T13:52:49Z" duration-ms="2538" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:11Z" name="setUp" finished-at="2020-02-03T00:24:14Z" duration-ms="3027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testWithAllBlanks()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:49Z" name="testWithAllBlanks" finished-at="2020-01-13T13:52:50Z" duration-ms="638" status="PASS">
+        <test-method signature="testWithAllBlanks()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:14Z" name="testWithAllBlanks" finished-at="2020-02-03T00:24:15Z" duration-ms="693" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithAllBlanks -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:50Z" name="close" finished-at="2020-01-13T13:52:50Z" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:15Z" name="close" finished-at="2020-02-03T00:24:15Z" duration-ms="144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:50Z" name="setUp" finished-at="2020-01-13T13:52:52Z" duration-ms="2398" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:15Z" name="setUp" finished-at="2020-02-03T00:24:18Z" duration-ms="3051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testWithBlankUserId()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:52Z" name="testWithBlankUserId" finished-at="2020-01-13T13:52:53Z" duration-ms="747" status="PASS">
+        <test-method signature="testWithBlankUserId()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:18Z" name="testWithBlankUserId" finished-at="2020-02-03T00:24:19Z" duration-ms="708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithBlankUserId -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:53Z" name="close" finished-at="2020-01-13T13:52:53Z" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:19Z" name="close" finished-at="2020-02-03T00:24:19Z" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:53Z" name="setUp" finished-at="2020-01-13T13:52:56Z" duration-ms="2536" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:19Z" name="setUp" finished-at="2020-02-03T00:24:21Z" duration-ms="2393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testWithInvalidCharacters()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:56Z" name="testWithInvalidCharacters" finished-at="2020-01-13T13:52:56Z" duration-ms="703" status="FAIL">
+        <test-method signature="testWithInvalidCharacters()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:21Z" name="testWithInvalidCharacters" finished-at="2020-02-03T00:24:22Z" duration-ms="642" status="FAIL">
           <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: 
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
 	at com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters(SignonTest.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -105,35 +109,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithInvalidCharacters -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:57Z" name="close" finished-at="2020-01-13T13:52:57Z" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:23Z" name="close" finished-at="2020-02-03T00:24:23Z" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:57Z" name="setUp" finished-at="2020-01-13T13:52:59Z" duration-ms="2302" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:23Z" name="setUp" finished-at="2020-02-03T00:24:26Z" duration-ms="2996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testWithSuccessCredentials()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:52:59Z" name="testWithSuccessCredentials" finished-at="2020-01-13T13:53:00Z" duration-ms="806" status="PASS">
+        <test-method signature="testWithSuccessCredentials()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:26Z" name="testWithSuccessCredentials" finished-at="2020-02-03T00:24:26Z" duration-ms="785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithSuccessCredentials -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:53:00Z" name="close" finished-at="2020-01-13T13:53:00Z" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:26Z" name="close" finished-at="2020-02-03T00:24:27Z" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:53:00Z" name="setUp" finished-at="2020-01-13T13:53:02Z" duration-ms="2237" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:27Z" name="setUp" finished-at="2020-02-03T00:24:30Z" duration-ms="2880" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testWithWrong()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:53:02Z" name="testWithWrong" finished-at="2020-01-13T13:53:03Z" duration-ms="653" status="FAIL">
+        <test-method signature="testWithWrong()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:30Z" name="testWithWrong" finished-at="2020-02-03T00:24:31Z" duration-ms="980" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected:<Invalid Username / Password!> but was:<valid>]]>
+              <![CDATA[expected [valid] but found [Invalid Username / Password!]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected:<Invalid Username / Password!> but was:<valid>
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+              <![CDATA[java.lang.AssertionError: expected [valid] but found [Invalid Username / Password!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
 	at com.apex.ecommerce.signon.test.SignonTest.testWithWrong(SignonTest.java:73)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -169,7 +177,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWithWrong -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-01-13T13:53:03Z" name="close" finished-at="2020-01-13T13:53:04Z" duration-ms="91" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:com.apex.ecommerce.signon.test.SignonTest@4602c2a9]" started-at="2020-02-03T00:24:31Z" name="close" finished-at="2020-02-03T00:24:31Z" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

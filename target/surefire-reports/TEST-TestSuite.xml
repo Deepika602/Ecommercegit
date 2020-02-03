@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="55.148" tests="6" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="60.995" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Applications/jdk-11.0.1.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/surefire/surefirebooter17353089180680253152.jar /Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/surefire 2020-01-13T13-52-15_937-jvmRun1 surefire4269671793267674036tmp surefire_0951991432221787729tmp"/>
+    <property name="sun.java.command" value="/Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/surefire/surefirebooter15894060761212199494.jar /Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/surefire 2020-02-03T00-23-38_230-jvmRun1 surefire8652104670895810389tmp surefire_017332791895370663843tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/test-classes:/Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/classes:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-java/3.9.0/selenium-java-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-api/3.9.0/selenium-api-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.9.0/selenium-chrome-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.9.0/selenium-edge-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.9.0/selenium-firefox-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.9.0/selenium-ie-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.9.0/selenium-opera-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.9.0/selenium-remote-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.9.0/selenium-safari-driver-3.9.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-support/3.9.0/selenium-support-3.9.0.jar:/Users/Shineys/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/Shineys/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Shineys/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/Shineys/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/Shineys/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/Shineys/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/Shineys/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Shineys/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Shineys/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Shineys/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Shineys/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Shineys/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/Shineys/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/Shineys/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/Shineys/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/Shineys/.m2/repository/org/testng/testng/6.9.10/testng-6.9.10.jar:/Users/Shineys/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/Users/Shineys/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/Shineys/.m2/repository/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar:/Users/Shineys/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/Shineys/.m2/repository/org/apache/logging/log4j/log4j-core/2.8.2/log4j-core-2.8.2.jar:/Users/Shineys/.m2/repository/org/apache/logging/log4j/log4j-api/2.8.2/log4j-api-2.8.2.jar:/Users/Shineys/.m2/repository/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar:/Users/Shineys/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar:/Users/Shineys/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/Shineys/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/Shineys/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/Shineys/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/Shineys/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/Shineys/.m2/repository/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar:/Users/Shineys/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/Shineys/.m2/repository/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/selenium-server/3.141.59/selenium-server-3.141.59.jar:/Users/Shineys/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/Shineys/.m2/repository/org/seleniumhq/selenium/jetty-repacked/9.4.12.v20180830/jetty-repacked-9.4.12.v20180830.jar:/Users/Shineys/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/Shineys/.m2/repository/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar:/Users/Shineys/.m2/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar:/Users/Shineys/.m2/repository/com/google/protobuf/protobuf-java/2.6.0/protobuf-java-2.6.0.jar:"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/surefire/surefirebooter17353089180680253152.jar"/>
+    <property name="surefire.real.class.path" value="/Users/Shineys/EclipseWS/ecommerce-selenium-tests/target/surefire/surefirebooter15894060761212199494.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.1+13-LTS"/>
@@ -43,7 +43,6 @@
     <property name="os.version" value="10.14.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
     <property name="localRepository" value="/Users/Shineys/.m2/repository"/>
@@ -63,20 +62,31 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="validatePidTest" classname="com.apex.ecommerce.order.test.OrderTest" time="21.682"/>
-  <testcase name="testWithAllBlanks" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.632"/>
-  <testcase name="testWithBlankUserId" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.744"/>
-  <testcase name="testWithSuccessCredentials" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.803"/>
-  <testcase name="testWithWrong" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.653">
-    <failure message="expected:&lt;Invalid Username / Password!&gt; but was:&lt;valid&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<Invalid Username / Password!> but was:<valid>
-	at com.apex.ecommerce.signon.test.SignonTest.testWithWrong(SignonTest.java:73)
+  <testcase name="validatePidTest" classname="com.apex.ecommerce.order.test.OrderTest" time="22.165"/>
+  <testcase name="testWithAllBlanks" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.693"/>
+  <testcase name="testWithBlankUserId" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.708"/>
+  <testcase name="testWithInvalidCharacters" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.661">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters(SignonTest.java:65)
 ]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 15279
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 20146
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-Jan 13, 2020 1:53:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 03, 2020 12:24:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="testCreateAccount" classname="com.apex.ecommerce.registration.test.RegistrationTest" time="4.319"/>
+  <testcase name="testWithSuccessCredentials" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.784"/>
+  <testcase name="testWithWrong" classname="com.apex.ecommerce.signon.test.SignonTest" time="0.981">
+    <failure message="expected [valid] but found [Invalid Username / Password!]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [valid] but found [Invalid Username / Password!]
+	at com.apex.ecommerce.signon.test.SignonTest.testWithWrong(SignonTest.java:73)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 79.0.3945.36 (3582db32b33893869b8c1339e8f4d9ed1816f143-refs/branch-heads/3945@{#614}) on port 36283
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Feb 03, 2020 12:24:29 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateAccount" classname="com.apex.ecommerce.registration.test.RegistrationTest" time="5"/>
 </testsuite>

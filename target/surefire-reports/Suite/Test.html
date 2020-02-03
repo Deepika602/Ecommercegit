@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>5/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jan 13 13:52:19 PST 2020</td>
+<td>Started on:</td><td>Mon Feb 03 00:23:43 PST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>51 seconds (51278 ms)</td>
+<tr><td>Total time:</td><td>55 seconds (55908 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters()'><b>testWithInvalidCharacters</b><br>Test class: com.apex.ecommerce.signon.test.SignonTest</td>
-<td><div><pre>java.lang.AssertionError: 
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
 	at com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters(SignonTest.java:65)
-... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1558133170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1558133170'><pre>java.lang.AssertionError: 
-	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:24)
-	at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1558133170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1558133170'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
 	at com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters(SignonTest.java:65)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -117,12 +118,16 @@ function toggleAllBoxes() {
 <td>com.apex.ecommerce.signon.test.SignonTest@4602c2a9</td></tr>
 <tr>
 <td title='com.apex.ecommerce.signon.test.SignonTest.testWithWrong()'><b>testWithWrong</b><br>Test class: com.apex.ecommerce.signon.test.SignonTest</td>
-<td><div><pre>java.lang.AssertionError: expected:&lt;Invalid Username / Password!&gt; but was:&lt;valid&gt;
+<td><div><pre>java.lang.AssertionError: expected [valid] but found [Invalid Username / Password!]
 	at com.apex.ecommerce.signon.test.SignonTest.testWithWrong(SignonTest.java:73)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2095373876", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2095373876'><pre>java.lang.AssertionError: expected:&lt;Invalid Username / Password!&gt; but was:&lt;valid&gt;
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
-	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2025066647", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2025066647'><pre>java.lang.AssertionError: expected [valid] but found [Invalid Username / Password!]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
 	at com.apex.ecommerce.signon.test.SignonTest.testWithWrong(SignonTest.java:73)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -186,7 +191,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='com.apex.ecommerce.order.test.OrderTest.validatePidTest()'><b>validatePidTest</b><br>Test class: com.apex.ecommerce.order.test.OrderTest</td>
 <td></td>
-<td>21</td>
+<td>22</td>
 <td>com.apex.ecommerce.order.test.OrderTest@6a62689d</td></tr>
 </table><p>
 </body>
