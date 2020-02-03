@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.apex.ecommerce.core.Listeners"/>
+    <listener class-name="com.apex.ecommerce.core.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.apex.ecommerce.order.test.OrderTest"/>
+      <class name="com.apex.ecommerce.signon.test.SignonTest"/>
+      <class name="com.apex.ecommerce.core.ApexBaseTest"/>
+      <class name="com.apex.ecommerce.registration.test.RegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="com.apex.ecommerce.order.test.OrderTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apex.ecommerce.order.test.OrderTest -->
+      <class name="com.apex.ecommerce.registration.test.RegistrationTest">
+        <methods>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.apex.ecommerce.registration.test.RegistrationTest -->
+      <class name="com.apex.ecommerce.signon.test.SignonTest">
+        <methods>
+          <include name="close"/>
+          <include name="testWithInvalidCharacters"/>
+          <include name="setUp"/>
+          <include name="testWithWrong"/>
+        </methods>
+      </class> <!-- com.apex.ecommerce.signon.test.SignonTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

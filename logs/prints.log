@@ -1,0 +1,4 @@
+12:00:57.583 [main] DEBUG com.apex.ecommerce.signon.test.SignonTest - button clicked
+12:05:36.114 [main] INFO  com.apex.ecommerce.signon.test.SignonTest - browser opened
+12:05:36.914 [main] DEBUG com.apex.ecommerce.signon.test.SignonTest - button1 clicked
+12:05:48.842 [main] DEBUG com.apex.ecommerce.signon.test.SignonTest - button clicked
