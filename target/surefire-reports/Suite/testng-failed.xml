@@ -33,6 +33,7 @@
         <methods>
           <include name="close"/>
           <include name="setUp"/>
+          <include name="validatePidTest"/>
         </methods>
       </class> <!-- com.apex.ecommerce.order.test.OrderTest -->
     </classes>
