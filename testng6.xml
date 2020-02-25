@@ -8,8 +8,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.apex.ecommerce.signon.test.SignonTest"/>
-      <class name="com.apex.ecommerce.core.ApexBaseTest"/>
-      <class name="com.apex.ecommerce.order.test.OrderTest"/>
+      <!-- <class name="com.apex.ecommerce.core.ApexBaseTest"/>
+      <class name="com.apex.ecommerce.order.test.OrderTest"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,24 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 75.611 s <<< FAILURE! - in TestSuite
-com.apex.ecommerce.order.test.OrderTest.validatePidTest  Time elapsed: 18.95 s  <<< FAILURE!
-org.openqa.selenium.UnhandledAlertException: 
-unexpected alert open: {Alert text : Are you sure you want to remove this product from your cart}
-  (Session info: chrome=80.0.3987.87): Are you sure you want to remove this product from your cart
-Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
-System info: host: 'Karthiks-MacBook-Air.local', ip: '2601:641:8000:e30:4096:dd0a:a4a5:29da%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/gc/rt94tmz93zj...}, goog:chromeOptions: {debuggerAddress: localhost:64488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a7cc859ac01c19625468a0f95b28df46
-*** Element info: {Using=xpath, value=//div[contains(text(),'Checkout')]}
-	at com.apex.ecommerce.order.test.OrderTest.validatePidTest(OrderTest.java:25)
-
-com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters  Time elapsed: 1.308 s  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 30.351 s <<< FAILURE! - in TestSuite
+com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters  Time elapsed: 1.068 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at com.apex.ecommerce.signon.test.SignonTest.testWithInvalidCharacters(SignonTest.java:65)
 
-com.apex.ecommerce.signon.test.SignonTest.testWithWrong  Time elapsed: 1.449 s  <<< FAILURE!
+com.apex.ecommerce.signon.test.SignonTest.testWithWrong  Time elapsed: 0.831 s  <<< FAILURE!
 java.lang.AssertionError: expected [valid] but found [Invalid Username / Password!]
 	at com.apex.ecommerce.signon.test.SignonTest.testWithWrong(SignonTest.java:73)
 
